@@ -1,0 +1,12 @@
+server:
+  port: 8811
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 92be086b85d7144fe4a7
+            clientSecret: 9a267ca63b314407c50c2902e411aa432f249427
+            scope: user
